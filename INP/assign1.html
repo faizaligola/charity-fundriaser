@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <h1>
+        Register here
+    </h1>
+    <form action="assign1.php" method="POST">
+        <label for="name"><b>Name</b></label>
+        <br>
+        <input name="name" type="text" required />
+        <br>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="2">
+    </textarea>
+        <br>
+        <br>
+        <label for="gender"><b>Gender</b></label>
+        <br>
+        <input name="gender" type="radio" value="Male" />Male
+        <input name="gender" type="radio" value="Female" />Female
+        <br>
+        <br>
+        <br>
+        <select required name="country" id="country">
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+
+</html>
